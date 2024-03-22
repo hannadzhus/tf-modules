@@ -7,7 +7,7 @@ variable "region" {
 }
 
 variable "service_account_id" {
-  type = number
+  type = string
 }
 
 variable "sa_display_name" {
