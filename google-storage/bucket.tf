@@ -1,6 +1,5 @@
 resource "google_storage_bucket" "bucket" {
-  name     = "gke-bucket"
-  location = "us-central1-a"
-
+  name     = var.bucket-name
+  location = var.bucket-location
   # Add any additional configurations here as needed
 }
